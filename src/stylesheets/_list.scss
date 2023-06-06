@@ -1,0 +1,44 @@
+.restaurants {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+
+
+  .card {
+    text-align: left;
+    padding: 20px;
+    background-color: $light-grey;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px $grey;
+
+    .restaurant-name {
+      padding: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+
+      h2 {
+        margin: 0 auto;
+      }
+
+      img {
+        height: 75px;
+      }
+    }
+    .cuisine-types {
+      margin: 15px 0;
+      display: flex;
+      flex-wrap: wrap;
+
+      button {
+        background-color: $orange;
+        color: white;
+        margin: 5px;
+        border: none;
+        padding: 5px 15px;
+        font-weight: bold;
+      }
+    }
+  }
+}

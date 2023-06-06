@@ -1,0 +1,21 @@
+.navbar {
+  background-color: $orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+  img {
+    height: 50px;
+  }
+
+  .links {
+
+    a {
+      color: white;
+      padding: 10px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+}

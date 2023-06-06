@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+// colors
+$orange: rgb(256,124,4);
+$grey: rgb(190,194,195);
+$light-grey: rgb(239, 243, 244);
+
+// fonts
+$main-font: 'Roboto', sans-serif;
+
+// Components
+@import "navbar.scss";
+@import "form.scss";
+@import "list.scss";
+
+body {
+  margin: 0;
+  font-family: $main-font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
